@@ -1,1 +1,69 @@
-/annex/objects/MD5E-s1766--54771072ddd666e96bef6bf39fbaaf74.json
+{
+    "zenodo": {
+        "concept_doi": "3518486",
+        "version": "3620787"
+    },
+    "title": "PERFORM Dataset; one control subject",
+    "description": "Functional Magnetic Resonance Imaging (fMRI), electroencephalography (EEG), sleep and nutrition assessments were performed on one male control subject. This registered access dataset is currently accessible on request only.",
+    "creators": [
+        {
+            "@type": "Organization",
+            "name": "PERFORM Centre Concordia University"
+        }
+    ],
+    "types": [
+        {
+            "information": {
+                "value": "MRI",
+                "valueIRI": ""
+            }
+        },
+        {
+            "information": {
+                "value": "EEG",
+                "valueIRI": ""
+            }
+        },
+        {
+            "information": {
+                "value": "Quality Control Subject",
+                "valueIRI": "http://uri.interlex.org/base/ilx_0381893"
+            }
+        }
+    ],
+    "version": "1.0",
+    "privacy": "Registered Access",
+    "isAbout": [
+        {
+            "@type": "BiologicalEntity",
+            "name": "adult human"
+        }
+    ],
+    "spatialCoverage": [
+        {
+            "@type": "Place",
+            "name": "Montr\u00e9al"
+        }
+    ],
+    "licenses": [
+        {
+            "@type": "License",
+            "name": "Cite PERFORM Centre Concordia University as the source of data."
+        }
+    ],
+    "aggregation": "instance of dataset",
+    "keywords": [
+        {
+            "@type": "Annotation",
+            "value": "control"
+        },
+        {
+            "@type": "Annotation",
+            "value": "MRI"
+        },
+        {
+            "@type": "Annotation",
+            "value": "EEG"
+        }
+    ]
+}
