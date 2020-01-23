@@ -1,13 +1,11 @@
-{
-    "zenodo": {
-        "concept_doi": "3518486",
-        "version": "3620787"
-    },
+    "identifier": {
+        "identifier": "https://doi.org/10.5281/zenodo.3518486",
+		"identifierSource": "DOI"
+	},
     "title": "PERFORM Dataset; one control subject",
     "description": "Functional Magnetic Resonance Imaging (fMRI), electroencephalography (EEG), sleep and nutrition assessments were performed on one male control subject. This registered access dataset is currently accessible on request only.",
     "creators": [
         {
-            "@type": "Organization",
             "name": "PERFORM Centre Concordia University"
         }
     ],
@@ -35,35 +33,85 @@
     "privacy": "Registered Access",
     "isAbout": [
         {
-            "@type": "BiologicalEntity",
             "name": "adult human"
         }
     ],
     "spatialCoverage": [
         {
-            "@type": "Place",
             "name": "Montr\u00e9al"
         }
     ],
     "licenses": [
         {
-            "@type": "License",
             "name": "Cite PERFORM Centre Concordia University as the source of data."
         }
     ],
     "aggregation": "instance of dataset",
     "keywords": [
         {
-            "@type": "Annotation",
             "value": "control"
         },
         {
-            "@type": "Annotation",
             "value": "MRI"
         },
         {
-            "@type": "Annotation",
             "value": "EEG"
+        }
+    ],
+    "distributions": [
+       {
+          "formats": [
+               "minc",
+               "json"
+           ],
+          "size" : 192,
+          "unit" : {
+            "value": "MB"
+          },
+          "access": {
+            "landingPage": "https://www.concordia.ca/research/perform.html"
+          }
+       }
+    ],
+    "extraProperties": [
+       {
+          "category": "contact",
+          "values": [
+               {
+                  "value": "Tristan Glatard, tristan.glatard@concordia.ca"
+               }
+          ]
+       },{
+                "category": "CONP_status",
+                "values": [
+                    {
+                        "value": "CONP"
+                    }
+                ]
+            },
+          {
+             "category": "files",
+             "values": [
+                   {
+                       "value": "27"
+                   }
+              ]
+          },
+          {
+              "category": "subjects",
+              "values": [
+                  {
+                      "value": "1"
+                  }
+              ]
+          },
+          {
+             "category": "logo",
+             "values": [
+                {
+                    "value": "https://www.concordia.ca/content/concordia/en/research/perform/research/sleep-symposium/_jcr_content/content-main/box/box-parsys/grid_container/grid-container-parsys/image.img.png/1564070216161.png"
+                }
+            ]
         }
     ]
 }
